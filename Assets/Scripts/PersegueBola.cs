@@ -40,5 +40,4 @@ public class PersegueBola : MonoBehaviour {
         pos = Vector3.Lerp(pos, alvoPos, lerpVal);
         transform.position = pos;
     }
-
 }

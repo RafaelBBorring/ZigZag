@@ -63,9 +63,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BolaControladora.cs" />
     <Compile Include="Assets\Scripts\CriaChao.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\PersegueBola.cs" />
+    <Compile Include="Assets\Scripts\RankController.cs" />
     <Compile Include="Assets\Scripts\RotMoeda.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Rafael/Repositorios/Zig Zag/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

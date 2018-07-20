@@ -69,12 +69,12 @@ public class CriaChao : MonoBehaviour
 
        
         
-            if (temp < 5)
+            if (temp < 3)
             {
                 CriaX();
                
             }
-            else if (temp >= 5)
+            else if (temp >= 3)
             {
                 CriaZ();
                 
