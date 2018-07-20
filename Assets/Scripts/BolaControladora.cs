@@ -30,6 +30,7 @@ public class BolaControladora : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        gameOver = false;
 
         txtMoedas.text = moedasNum.ToString();
 
@@ -42,6 +43,7 @@ public class BolaControladora : MonoBehaviour {
         gManager = GameManager.gManager;
 
         pontosNum = gManager.Score;
+        
 
         StartCoroutine(AjustaVel());
 	}

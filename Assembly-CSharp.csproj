@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{9222DCF5-A4F8-FE5C-3CCB-62FD0C107646}</ProjectGuid>
+    <ProjectGuid>{753BC2A2-3680-5CB5-3DA2-FD6C2D109E70}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,10 +70,10 @@
     <Compile Include="Assets\Scripts\RankController.cs" />
     <Compile Include="Assets\Scripts\RotMoeda.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Rafael/Repositorios/Zig Zag/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/Rafael/Repositorios/ZigZag/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Rafael/Repositorios/Zig Zag/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Rafael/Repositorios/ZigZag/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

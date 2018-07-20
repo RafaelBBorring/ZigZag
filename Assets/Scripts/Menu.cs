@@ -20,7 +20,7 @@ public class Menu : MonoBehaviour
 
     public void BT_Play()
     {
-        SceneManager.LoadScene("Jogo 1");
+        SceneManager.LoadScene("Jogo");
         
     }
 
