@@ -13,7 +13,7 @@ public class Menu : MonoBehaviour
     void Start()
     {
         gManager = GameManager.gManager;
-        
+
     }
 
     // Update is called once per frame
@@ -24,10 +24,15 @@ public class Menu : MonoBehaviour
 
     public void BT_Play()
     {
-        SceneManager.LoadScene("Jogo");
+        SceneManager.LoadScene("Jogo 1");
         gManager.Score = 0;
-        
-        
+
+    }
+
+    public void BT_Custom()
+    {
+        SceneManager.LoadScene("CustomMain");
+
     }
 
     public void BT_About()
