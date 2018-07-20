@@ -86,7 +86,7 @@ public class CriaChao : MonoBehaviour
     {
         while (BolaControladora.gameOver != true)
         {
-            yield return new WaitForSeconds (0.5f);
+            yield return new WaitForSeconds (0.00001f);
             CriaChaoXZ();
 
 

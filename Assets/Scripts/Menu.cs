@@ -6,10 +6,14 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+
+    GameManager gManager;
+
     // Use this for initialization
     void Start()
     {
-
+        gManager = GameManager.gManager;
+        
     }
 
     // Update is called once per frame
@@ -21,6 +25,8 @@ public class Menu : MonoBehaviour
     public void BT_Play()
     {
         SceneManager.LoadScene("Jogo");
+        gManager.Score = 0;
+        
         
     }
 

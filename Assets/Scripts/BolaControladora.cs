@@ -20,8 +20,7 @@ public class BolaControladora : MonoBehaviour {
     private Text txtMoedas;
     [SerializeField]
     private Text txtPontos;
-    [SerializeField]
-    private GameObject Bola;
+  
 
     GameManager gManager;
 
@@ -36,8 +35,7 @@ public class BolaControladora : MonoBehaviour {
 
         rb = GetComponent<Rigidbody>();
 
-        Bola = GetComponent<GameObject>();
-
+        
         rb.velocity = new Vector3(vel, 0, 0);
 
         gManager = GameManager.gManager;
@@ -68,7 +66,7 @@ public class BolaControladora : MonoBehaviour {
             if (gameOver == true)
             {
                 SceneManager.LoadScene("GameOver");
-                print("Caindooo");
+                
             }
             
         }
@@ -85,14 +83,14 @@ public class BolaControladora : MonoBehaviour {
             rb.velocity = new Vector3(0, 0, vel);
             gManager.Score++;
             txtPontos.text = gManager.Score.ToString();
-            print("Ta certu");
+            
         }
         else if (rb.velocity.z > 0)
         {
             rb.velocity = new Vector3(vel, 0, 0);
             gManager.Score++;
             txtPontos.text = gManager.Score.ToString();
-            print("tranquileba");
+            
         }
     }
 
