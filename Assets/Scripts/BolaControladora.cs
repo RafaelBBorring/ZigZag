@@ -13,7 +13,7 @@ public class BolaControladora : MonoBehaviour {
     private Rigidbody rb;
     public static bool gameOver = false;
     [SerializeField]
-    private int moedasNum = 0;
+    private int moedasNum;
     [SerializeField]
     private int pontosNum = 0;
     [SerializeField]
@@ -31,7 +31,7 @@ public class BolaControladora : MonoBehaviour {
 	void Start () {
         gameOver = false;
 
-        txtMoedas.text = moedasNum.ToString();
+        
 
         rb = GetComponent<Rigidbody>();
 
@@ -41,6 +41,9 @@ public class BolaControladora : MonoBehaviour {
         gManager = GameManager.gManager;
 
         pontosNum = gManager.Score;
+        moedasNum = gManager.Moedas;
+
+       
         
 
         StartCoroutine(AjustaVel());
@@ -99,8 +102,9 @@ public class BolaControladora : MonoBehaviour {
         if (col.gameObject.CompareTag("moeda"))
         {
             Destroy(col.gameObject);
-            moedasNum++;
-            txtMoedas.text = moedasNum.ToString();
+            gManager.Moedas++;
+            txtMoedas.text = gManager.Moedas.ToString();
+
         }
     }
 

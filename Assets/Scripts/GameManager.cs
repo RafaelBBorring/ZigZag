@@ -1,10 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     [SerializeField]
     public int Score = 0;
+    [SerializeField]
+    public int Moedas;
+    [SerializeField]
+    private Text MoedasTxT;
 
 
     public static GameManager gManager;
@@ -23,6 +28,8 @@ public class GameManager : MonoBehaviour {
         }
 
         DontDestroyOnLoad(gameObject);
+
+        MoedasTxT.text = Moedas.ToString();
 
     }
 

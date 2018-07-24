@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\CriaChao.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\MoedaControl.cs" />
     <Compile Include="Assets\Scripts\PauseGame.cs" />
     <Compile Include="Assets\Scripts\PersegueBola.cs" />
     <Compile Include="Assets\Scripts\RankController.cs" />
